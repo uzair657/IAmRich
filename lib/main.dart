@@ -7,14 +7,14 @@ void main() {
       backgroundColor: Colors.blueGrey,
       appBar: AppBar(
         title: Text('I Am Rich'),
-        backgroundColor: Colors.blueGrey[900],
+        backgroundColor: Colors.blueGrey[500],
         foregroundColor: Colors.white,
       ),
       body: Center(
         child: Image.asset(
           'images/diamond.png',
-          height: 200.0,
-          width: 200.0,
+          height: 150.0,
+          width: 150.0,
         ),
       ),
     ),
